@@ -111,7 +111,7 @@ disqusShortname = "yourdiscussshortname"
             [[languages.en.menu.main]]
             name = "Blog"
             weight = 2
-            url = "posts/"
+            url = "articles/"
 
             [[languages.en.menu.main]]
             name = "Projects"
@@ -145,7 +145,7 @@ disqusShortname = "yourdiscussshortname"
             [[languages.pt-br.menu.main]]
             name = "Blog"
             weight = 2
-            url = "posts/"
+            url = "articles/"
 
             [[languages.pt-br.menu.main]]
             name = "Projetos"
