@@ -8,12 +8,9 @@
     {{ with .Site.Params.gravatar }}
       <div class="avatar"><img src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="gravatar"></div>
     {{ end }}
-    {{ $authorSlice := split .Site.Params.author " " }}
-    <h1>
-      {{ index $authorSlice 0 }}
-      <i>{{ .Site.Params.nickname }}</i>
-      {{ index $authorSlice 1 }}
-    </h1>
+    <h1>{{ .Site.Params.Author }}</h1>
+    <h2><i>{{ .Site.Params.nickname }}</i></h2>
+    </br>
     <h2>{{ .Site.Params.info }}</h2>
     {{ with .Site.Params.social }}
     <ul>
