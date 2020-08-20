@@ -22,6 +22,9 @@ other = "You can head back to <a href=\"{{ . }}\">homepage</a>."
 [powered_by]
 other = "Powered by"
 
+[theme_based]
+other = "with a theme based on"
+
 [articles_intro]
 other = """You will find here all the articles/posts I've written.
   Some of them are written in French."""

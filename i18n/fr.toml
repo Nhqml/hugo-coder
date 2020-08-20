@@ -23,6 +23,9 @@ other = "Vous pouvez revenir à <a href=\"{{ . }}\">l'accueil</a>."
 [powered_by]
 other = "Propulsé par"
 
+[theme_based]
+other = "avec un thème basé sur"
+
 [articles_intro]
 other = """Vous trouverez ici tous les articles/posts que j'ai écrits.
   Certains d'entre eux sont rédigés en anglais."""
